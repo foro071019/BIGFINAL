@@ -1,0 +1,103 @@
+ .d_resume_wrap {
+   border: solid black 1px;
+   border-radius: 5px;
+   box-shadow: 2px 3px 17px 2px;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: fit-content;
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+ .d_resume_green {
+   width: 100%;
+   display: flex;
+
+   background-color: #a9d18e;
+   padding: 20px 100px 20px 100px;
+   margin-top: 90px;
+   line-height: 1px;
+   position: relative;
+
+ }
+
+ .d_resume_green h1 {
+   font-size: 30px;
+ }
+
+ .d_resume_imgback {
+   position: absolute;
+   border-radius: 50%;
+   background-color: #a9d18e;
+   padding: 10px;
+   width: fit-content;
+   height: fit-content;
+   top: 50%;
+   right: 100px;
+   transform: translate(0, -50%);
+ }
+
+ .d_resume_imgback img {
+   width: 200px;
+   height: 200px;
+   background-color: #fff;
+   border-radius: 50%;
+
+ }
+
+ .d_resume_alltxt {
+   padding: 60px 100px 90px 100px;
+ }
+
+ .d_resume_alltxt li {
+   margin-left: 70px;
+ }
+
+ .d_resume_alltxt h6 {
+   margin-left: 50px;
+ }
+
+ .d_resume_alltxt h6 p {
+   font-weight: 400;
+ }
+
+ .d_resume button {
+   color: #fff;
+   font-weight: 700;
+   padding: 10px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   border-radius: 10px;
+   margin-top: 100px;
+   background-color: #00C2FF;
+   animation: burger_animation 3s linear infinite;
+ }
+
+ @media screen and (max-width: 943px) {
+   .d_resume_green {
+     padding: 20px 0px 20px 30px;
+   }
+
+   .d_resume_imgback {
+     right: 20px;
+   }
+ }
+
+ @media screen and (max-width: 768px) {
+   .d_resume_imgback img {
+     width: 130px !important;
+     height: 130px !important;
+   }
+
+   .d_resume_green h1 {
+     font-size: 25px !important;
+   }
+
+   .d_resume_alltxt {
+     padding: 30px 10px 20px 16px;
+   }
+
+   .d_resume_green {
+     margin-top: 46px;
+   }
+ }

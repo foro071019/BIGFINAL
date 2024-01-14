@@ -1,0 +1,61 @@
+.js_hidden {
+    visibility: hidden !important;
+}
+
+.js_visible {
+    visibility: visible;
+}
+
+.js_none {
+    display: none !important;
+}
+
+.js_block {
+    display: block !important;
+}
+
+.js_flex {
+    display: flex !important;
+}
+
+.js_burger_container {
+    border-radius: 10px !important;
+    transition: all linear 1s;
+}
+
+.js_color_white {
+    color: #fff;
+}
+
+.js_mobile_menu {
+    width: 300px;
+    height: 100vh;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition: all 100ms linear;
+}
+
+.js_bar-x1 {
+    transform: rotate(46deg) !important;
+    transition: all 0.5s linear;
+}
+
+.js_bar-x2 {
+    transform: rotate(-46deg) !important;
+    transition: all 0.5s linear;
+}
+
+.js_padding_remove {
+    padding-top: 0px !important;
+}
+
+.js_padding_add {
+    padding-top: 100px !important;
+}
+
+
+.js_header {
+
+    transform: translateY(-100%);
+    position: fixed;
+}

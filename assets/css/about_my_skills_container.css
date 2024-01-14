@@ -1,0 +1,344 @@
+.my_skills_wrapper {
+    overflow: hidden;
+    position: relative;
+    /* top: -80px; */
+    /* background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(/assets/img/backgroundExtentions/Vector\ 63\ \(Stroke\).png); */
+}
+
+.red_vector {
+    position: absolute;
+    z-index: -1;
+    right: -50px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.my_skills_label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+
+
+.my_skills_label p {
+    font-size: x-large;
+    font-weight: 700;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.skills_list {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills_list ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    width: 440px;
+    box-shadow: 0 0 4px black;
+
+}
+
+.skills_list ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+
+.skills_list span {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.skill_experties p {
+    font-size: 12px;
+    margin: 0;
+
+}
+
+.skill_experties {
+    display: flex;
+    justify-content: space-between;
+}
+
+/**************************************progress bar**********************************/
+
+.progress_container {
+    border-radius: 10px;
+    border: 1px solid #000;
+    width: 100%;
+    box-shadow: 0 0 2px black;
+}
+
+.progress_HTML {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 95%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
+
+
+
+.progress_CSS {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 90%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
+
+
+
+.progress_JS {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 85%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
+
+
+
+.progress_PHP {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 80%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
+
+
+
+.progress_WP {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 80%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
+
+
+
+.progress_BOOTSTRAP {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 82%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
+
+
+.progress_SEO {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 79%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
+
+
+
+.progress_UI {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 85%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
+
+
+
+.progress_VE {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 75%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
+
+
+
+.progress_C {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 65%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
+
+
+
+.progress_JAVA {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 75%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
+
+@keyframes grow {
+    0% {
+        background-position: 0px 0;
+    }
+
+    100% {
+        background-position: 57px 0;
+    }
+
+    0% {
+        background-position: 0px 0;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    .skills_list ul li {
+        width: 85vw;
+    }
+
+    .my_skills_label img {
+        width: 200px;
+    }
+
+    .skills_list {
+        margin-bottom: 0px;
+    }
+
+    .blue_line {
+
+        transform: translate(-50%, -50%) rotate(315deg) !important;
+    }
+}

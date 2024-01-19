@@ -1,0 +1,22 @@
+{
+  "path": "/sitemap.xml",
+  "lastSubmitted": "2024-01-19T12:00:00Z",
+  "isPending": false,
+  "isSitemapsIndex": false,
+  "type": "SITEMAP",
+  "lastDownloaded": "2024-01-19T12:05:00Z",
+  "warnings": 2,
+  "errors": 0,
+  "contents": [
+    {
+      "type": "WEB_PAGE",
+      "submitted": 50,
+      "indexed": 48
+    },
+    {
+      "type": "PDF_DOCUMENT",
+      "submitted": 10,
+      "indexed": 10
+    }
+  ]
+}

@@ -56,6 +56,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // home botton start
 
   this_homebtn_about.addEventListener("click", function (event) {
+
     if (sec_home.style.display === "flex") {
 
       sec_home.classList.add("js_none");
@@ -63,6 +64,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
       sec_home.classList.remove("js_flex");
 
     }
+
+    document.querySelector('.background_cirle').style.transform = '';
+    document.querySelector('.home_text_container').style.transform = '';
+    document.querySelector('.scrolldown').style.visibility = 'visible';
 
     event.preventDefault();
     sec_about.classList.add("js_block");
@@ -300,6 +305,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   });
 
   this_mobile_home.addEventListener("click", function (event) {
+
 
     event.preventDefault();
     sec_home.classList.add("js_flex");

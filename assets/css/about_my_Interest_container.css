@@ -44,6 +44,7 @@
     justify-content: space-around;
     display: flex;
     margin-top: 20px;
+    padding: 0;
 }
 
 .my_Interest_content ul li {
@@ -62,4 +63,9 @@
 
 .my_Interest_content ul li strong {
     color: #fff;
+}
+
+.my_Interest_content ul li:hover {
+    transform: scale(1.1);
+    transition: all linear 200ms;
 }

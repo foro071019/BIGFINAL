@@ -74,6 +74,7 @@
     text-align: justify;
     text-indent: 3rem;
 }
+
 @media only screen and (min-width: 992px) {
     .intro_container {
         display: flex;
@@ -145,6 +146,6 @@
     }
 
     .contact_me_page {
-        gap: 20px !important;
+        gap: 0 !important;
     }
 }

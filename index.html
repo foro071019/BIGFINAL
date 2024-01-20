@@ -84,11 +84,11 @@
 
 
     <!-- Preloader -->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="loader">
             <img src="assets/img/bird_1451496.png" alt="bird">
         </div>
-    </div>
+    </div> -->
 
     <!-- Your website content goes here -->
     <header id="header" style="display: none;">
@@ -124,10 +124,10 @@
 
     <main id="maintag">
 
-        <div id="top_button" style="position: fixed; bottom: 20px;
-        right: 20px; z-index: 999;">
+        <div onclick="topFunction()" id="top_button" style="position: fixed; bottom: 20px;
+        right: 20px; z-index: 999; visibility: hidden; transition: all 500ms ease; opacity: 0;">
             <div
-                style="background-color: #0A63DE; height: 40px; width: 40px; border-radius: 50%; display: flex; justify-content: center; align-content: center; flex-wrap: wrap; color: #fff;  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
+                style="background-color: #0A63DE; height: 40px; width: 40px; border-radius: 50%; display: flex; justify-content: center; align-content: center; flex-wrap: wrap; color: #fff;  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); animation: burger_animation 3s linear infinite;">
                 <strong>Top</strong>
             </div>
         </div>
@@ -253,6 +253,14 @@
 
                     </div>
 
+                    <div class="container awareness">
+                        <p><em>By rating myself, I want to convey that I am skilled and experienced, but I'm also aware
+                                of the complexity of the given
+                                skills. I am always committed to ongoing learning, staying abreast to acquire new
+                                skills, and improving the ones I
+                                already possess.</em></p>
+                    </div>
+
                     <div class="container skills_list">
                         <ul>
                             <li><span>HTML</span>
@@ -263,6 +271,11 @@
                                 <div class="progress_container">
                                     <div class="progress_HTML">95%</div>
                                 </div>
+                                <em class="explaination">I chose 95% to acknowledge that while I have a high level
+                                    of
+                                    proficiency, there might
+                                    be some areas where I can continue
+                                    to grow and deepen my understanding.</em>
                             </li>
                             <li><span>CSS</span>
                                 <div class="skill_experties">
@@ -272,6 +285,9 @@
                                 <div class="progress_container">
                                     <div class="progress_CSS">90%</div>
                                 </div>
+                                <em class="explaination">I rated myself a 90% on CSS because I have a strong foundation
+                                    in CSS and feel confident in my ability to create
+                                    responsive layouts, style web pages, and handle various styling challenges.</em>
                             </li>
                             <li><span>JAVA SCRIPT</span>
                                 <div class="skill_experties">
@@ -281,6 +297,11 @@
                                 <div class="progress_container">
                                     <div class="progress_JS">85%</div>
                                 </div>
+                                <em class="explaination">I've rated myself an 85% on JavaScript based on my experience
+                                    and proficiency with the language. I've successfully
+                                    developed interactive and dynamic features on websites, utilized various JavaScript
+                                    libraries and frameworks, and solved
+                                    complex problems using JavaScript.</em>
                             </li>
                             <li> <span>PHP</span>
                                 <div class="skill_experties">
@@ -290,6 +311,11 @@
                                 <div class="progress_container">
                                     <div class="progress_PHP">80%</div>
                                 </div>
+                                <em class="explaination">I've rated myself 80% in PHP based on my experience and
+                                    proficiency with the language. I have successfully developed
+                                    server-side applications, interacted with databases, and created dynamic web pages,
+                                    including those using platforms like
+                                    WordPress, using PHP.</em>
                             </li>
                             <li> <span>WORDPRESS</span>
                                 <div class="skill_experties">
@@ -299,6 +325,10 @@
                                 <div class="progress_container">
                                     <div class="progress_WP">80%</div>
                                 </div>
+                                <em class="explaination">I've rated myself 80% in WordPress based on my experience
+                                    and proficiency with the platform. I've successfully
+                                    designed and developed websites using WordPress, implemented custom themes and
+                                    plugins, and optimized site performance.</em>
                             </li>
                             <li> <span>BOOTSTRAP</span>
                                 <div class="skill_experties">
@@ -308,6 +338,10 @@
                                 <div class="progress_container">
                                     <div class="progress_BOOTSTRAP">82%</div>
                                 </div>
+                                <em class="explaination">I've rated myself 82% in Bootstrap based on my experience and
+                                    proficiency with the framework. I've successfully
+                                    utilized Bootstrap to design and develop responsive and visually appealing
+                                    websites.</em>
                             </li>
                             <li> <span>SEO</span>
                                 <div class="skill_experties">
@@ -317,6 +351,11 @@
                                 <div class="progress_container">
                                     <div class="progress_SEO">79%</div>
                                 </div>
+                                <em class="explaination">I've rated myself 85% in SEO based on my experience and
+                                    proficiency in optimizing websites for search engines. I've
+                                    successfully implemented on-page and off-page SEO strategies, conducted keyword
+                                    research, and optimized content for
+                                    improved visibility.</em>
                             </li>
                             <li> <span>UI/UX</span>
                                 <div class="skill_experties">
@@ -326,6 +365,11 @@
                                 <div class="progress_container">
                                     <div class="progress_UI">85%</div>
                                 </div>
+                                <em class="explaination">I've rated myself 85% in UI/UX based on my experience and
+                                    proficiency in designing user interfaces and enhancing user
+                                    experiences. I am particularly proud that I've been the sole creator of the
+                                    designs on my website, showcasing my
+                                    ability to conceive and implement compelling visual experiences.</em>
                             </li>
                             <li> <span>VIDEO EDITING</span>
                                 <div class="skill_experties">
@@ -335,6 +379,25 @@
                                 <div class="progress_container">
                                     <div class="progress_VE">75%</div>
                                 </div>
+                                <em class="explaination">I've rated myself 75% in video editing based on my experience
+                                    and proficiency in creating and editing videos. I've
+                                    successfully utilized video editing software to cut, trim, and assemble footage, add
+                                    effects, transitions, and optimize
+                                    audio.</em>
+                            </li>
+                            <li> <span>GRAPHICS DESIGNING</span>
+                                <div class="skill_experties">
+                                    <p>BEGINNER</p>
+                                    <p>EXPERT</p>
+                                </div>
+                                <div class="progress_container">
+                                    <div class="progress_GRAPHICS">70%</div>
+                                </div>
+                                <em class="explaination">I've rated myself 70% in graphics designing based on my
+                                    experience and proficiency in creating visual content. I've
+                                    successfully designed various graphics, including logos, banners, and promotional
+                                    materials, using graphic design tools
+                                    and software.</em>
                             </li>
                             <li> <span>C LANGUAGE</span>
                                 <div class="skill_experties">
@@ -344,6 +407,9 @@
                                 <div class="progress_container">
                                     <div class="progress_C">65%</div>
                                 </div>
+                                <em class="explaination">I've rated myself 65% in the C language based on my
+                                    experience and proficiency. I possess a foundational understanding
+                                    of C, including concepts such as variables, data types, loops, and functions.</em>
                             </li>
                             <li> <span>JAVA</span>
                                 <div class="skill_experties">
@@ -353,6 +419,9 @@
                                 <div class="progress_container">
                                     <div class="progress_JAVA">75%</div>
                                 </div>
+                                <em class="explaination">I've rated myself 75% in Java because my understanding of
+                                    core Java concepts, such as classes, inheritance, and
+                                    exception handling, allows me to create robust and efficient code.</em>
                             </li>
                         </ul>
 

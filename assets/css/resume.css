@@ -101,3 +101,27 @@
      margin-top: 46px;
    }
  }
+
+ @media screen and (max-width: 520px) {
+
+   .d_resume_imgback {
+     position: relative;
+     top: -25px !important;
+     right: 0 !important;
+     transform: translate(0) !important;
+   }
+
+   .d_resume_greentxt {
+     position: static !important;
+   }
+
+   .d_resume_green {
+     height: 200px;
+     margin-top: 170px;
+     line-height: 1 !important;
+     text-align: center;
+     padding: 5px !important;
+     justify-content: center;
+     flex-wrap: wrap-reverse;
+   }
+ }

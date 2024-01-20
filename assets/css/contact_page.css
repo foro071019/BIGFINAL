@@ -179,4 +179,12 @@
         height: 6vw !important;
 
     }
+
+    .contact_page_card1 {
+        transform: scale(0.8);
+    }
+
+    .contact_me_page {
+        padding-top: 18px;
+    }
 }

@@ -8,11 +8,18 @@
 }
 
 .red_vector {
-    position: absolute;
+    position: fixed;
     z-index: -1;
     right: -50px;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+.awareness p em {
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .my_skills_label {
@@ -34,6 +41,7 @@
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
+
 }
 
 .skills_list ul li {
@@ -46,8 +54,54 @@
     padding: 10px;
     width: 440px;
     box-shadow: 0 0 4px black;
+    position: relative;
+}
+
+/********************** explain preview **********************/
+.skills_list ul li:hover div {
+    visibility: hidden;
+
+    opacity: 0;
+    transition: opacity 200ms linear, visibility 200ms linear;
+}
+
+.skills_list ul li:hover span {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 200ms linear, visibility 200ms linear;
+}
+
+.skills_list ul li:hover {
+    background-color: #00C2FF;
+    transition: all linear 200ms;
+    transform: scale(1.1, 1.3);
+    z-index: 999;
+}
+
+.skills_list ul li .explaination {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin: 0;
+    width: 340px !important;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 200ms linear, visibility 200ms linear;
 
 }
+
+.skills_list ul li:hover .explaination {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+/********************** explain preview **********************/
 
 .skills_list ul {
     display: flex;
@@ -100,6 +154,8 @@
             #00b1e7 20px);
     animation: grow linear infinite 2s;
 }
+
+
 
 
 
@@ -268,6 +324,24 @@
     animation: grow linear infinite 2s;
 }
 
+.progress_GRAPHICS {
+
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 70%;
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg,
+            #00C2FF,
+            #00C2FF 10px,
+            #00b1e7 10px,
+            #00b1e7 20px);
+    animation: grow linear infinite 2s;
+}
 
 
 .progress_C {

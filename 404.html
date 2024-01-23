@@ -35,16 +35,59 @@
             margin-top: 20px;
             font-size: 18px;
         }
+
+        section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 100px;
+    background: #3c31dd;
+}
+
+.curve {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    transform: translate(85%, 60%);
+    background-color: hsl(216, 21%, 16%);
+}
+
+.curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #3c31dd;
+    transform: translate(-4%, 40%);
+    z-index: -1;
+}
     </style>
 </head>
 <body>
-
-    <div id="container">
+ 
+    <section>
+    <div id="curve container">
         <h1>Page Not Found</h1>
         <p>Maybe it's taking a mental health day and treating itself to some well-deserved self-care. We'll catch up when it's ready.</p>
         <h3><a href="https://rejayford-web.netlify.app/">Go back to my care!</a></h3>
         <!-- Add more content or links as needed -->
     </div>
+           </section>
 
 </body>
 </html>

@@ -4,19 +4,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets\css\projects.css">
   <link rel="stylesheet" href="assets/bootstrap-5.3.2-dist/css/bootstrap.css">
 
   <title>projects</title>
 </head>
 
 <body>
-  <section>
-    <div class="container">
+  <section class="projects">
+    <div class="projects_content container">
+
+      <h1>Projects Update</h1>
+
       <fieldset>
-        <legend> </legend>
+        <legend>Web Development</legend>
+        <details>
+          <summary>Web Development Projects</summary>
+
+        </details>
+        <details>
+          <summary>Mobile App Development Projects</summary>
+        </details>
+        <details>
+          <summary>Desktop Application Projects</summary>
+        </details>
+        <details>
+          <summary>Open Source Projects</summary>
+        </details>
+        <details>
+          <summary>Mobile App Development Projects</summary>
+        </details>
+      </fieldset>
+
+      <fieldset>
+        <legend>UI/UX</legend>
+        <details>
+          <summary>Website Design</summary>
+        </details>
+        <details>
+          <summary>Mobile App Design</summary>
+        </details>
+      </fieldset>
+
+      <fieldset>
+        <legend>Graphics Designing</legend>
+        <details>
+          <summary>Logo Design</summary>
+        </details>
+        <details>
+          <summary>Digital Marketing Graphics</summary>
+        </details>
+        <details>
+          <summary>Digital Marketing Graphics</summary>
+        </details>
+        <details>
+          <summary>Advertisement</summary>
+        </details>
       </fieldset>
     </div>
   </section>
+
+  <script>
+    // Get all details elements
+    var detailsElements = document.querySelectorAll('details');
+
+    // Add click event listeners to each details element
+    detailsElements.forEach(function (details) {
+      details.addEventListener('click', function () {
+        // Close all details elements except the one that was clicked
+        detailsElements.forEach(function (otherDetails) {
+          if (otherDetails !== details) {
+            otherDetails.removeAttribute('open');
+          }
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>

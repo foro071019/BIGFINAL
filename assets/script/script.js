@@ -65,9 +65,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     }
 
-    document.querySelector('.background_cirle').style.transform = '';
-    document.querySelector('.home_text_container').style.transform = '';
-    document.querySelector('.scrolldown').style.visibility = 'visible';
+    document.querySelector('.background_cirle').style.transform = 'translateX(0)';
+    document.querySelector('.home_text_container').style.transform = 'translateX(0)';
 
     event.preventDefault();
     sec_about.classList.add("js_block");

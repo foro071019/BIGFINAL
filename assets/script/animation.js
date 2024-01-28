@@ -1,27 +1,26 @@
 
 
-let prevScrollPos = window.pageYOffset;
+// let prevScrollPos = window.pageYOffset;
 
-window.onscroll = function () {
-  const currentScrollPos = window.pageYOffset;
+// window.onscroll = function () {
+//   const currentScrollPos = window.pageYOffset;
 
 
-  if (prevScrollPos > currentScrollPos) {
+//   if (prevScrollPos > currentScrollPos) {
 
-    document.querySelector('.background_cirle').style.transform = 'translateX(0)';
-    document.querySelector('.home_text_container').style.transform = 'translateX(0)';
 
-  } else {
-    // Scrolling Down
+//     document.querySelector('.home_text_container').style.transform = 'translateX(0)';
 
-    document.querySelector('.background_cirle').style.transform = 'translateX(0)';
-    document.querySelector('.home_text_container').style.transform = 'translateX(0)';
-    document.querySelector('.scrolldown').style.visibility = 'hidden';
+//   } else {
+//     // Scrolling Down
 
-  }
 
-  prevScrollPos = currentScrollPos;
-};
+//     document.querySelector('.home_text_container').style.transform = 'translateX(0)';
+
+//   }
+
+//   prevScrollPos = currentScrollPos;
+// };
 
 window.addEventListener('scroll', reveal);
 
@@ -32,7 +31,7 @@ function reveal() {
 
     var windowheight = window.innerHeight;
     var revealtop = reveals[i].getBoundingClientRect().top;
-    var revealpoint = 200;
+    var revealpoint = 1;
 
     if (revealtop < windowheight - revealpoint) {
       reveals[i].classList.add('active');

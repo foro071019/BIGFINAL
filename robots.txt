@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://rejayford-web.netlify.app/first-sitemap.xml
+Sitemap: https://rejayford-web.netlify.app/sitemap.xml
